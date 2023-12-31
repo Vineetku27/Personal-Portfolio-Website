@@ -1,0 +1,53 @@
+/* Variable */
+:root {
+  --purple: #a100ff;
+}
+
+.home .intro .img-div:hover{
+  border-color: var(--purple);
+}
+
+.aside .logo a::before {
+  border-top: 4px solid var(--purple);
+  border-left: 4px solid var(--purple);
+}
+.aside .logo a::after {
+  border-right: 4px solid var(--purple);
+  border-bottom: 4px solid var(--purple);
+}
+
+.aside .nav li a:hover,
+.aside .nav li a.active,
+body.dark .aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.about .about-content .about-text h3,
+.about .about-content .skills h3,
+.contact-text p,
+.contact .contact-info-item .icon .fa,
+.timeline-text span {
+  color: var(--purple);
+}
+
+.btn,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline .timeline-item::before,
+.about .about-content .timeline .circle-dot,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.section-title h2::before,
+.section-title h2::after,
+.home .intro .social-links a {
+  background-color: var(--purple);
+}
+
+/* form */
+#form .input_group input:focus,
+#form .input_group select:focus {
+  border: 2px solid var(--purple);
+}
+
+#form .submit_form:hover{
+  color: #fff;
+  background-color: var(--purple);
+}
